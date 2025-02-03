@@ -2,24 +2,24 @@
 
 1. Install NodeJS [Check Node Version node -v]
 2. Install NPM [Check NPM Version npm -v]
-3. Create a blank project folder
-4. Open the folder through VS Code
-5. Open Terminal and run the following commands
-6. npm init -y [Initialize the project]
-7. npm install cypress -–save-dev [Install Cypress]
-8. npx  cypress -v [Check Cypress Version]
-9. npx cypress verify [Verify Cypress Installation]
-10. npx cypress open [Open Cypress]
-11. cypress run e2e [Run All Tests with Browser Headless]
-12. cypress run --spec cypress/e2e/change_password/change_password.cy.js [To run specific suit]
-13. cypress run --headed --spec cypress/e2e/change_password/change_password.cy.js [To run specific suit with head]
-14. cypress run --browser chrome [Run in Chrome Browser]
-15. cypress run e2e --headed [Run with Browser Head AND WILL GENERATE HTML REPORT]
-16. Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-17. npx cypress run --record
-18. npm install --save-dev cypress-file-upload
-19. npm install --save-dev cypress-mochawesome-reporter [It will download the dependency to generate Mochawesome report]
-20. npm install --save-dev cypress-terminal-report [It will download the dependency to print logs on terminal]
+3. Open the folder through VS Code
+4. Open Terminal and run the following commands
+5. npm init -y [Initialize the project]
+6. npm install cypress -–save-dev [Install Cypress]
+7. npx  cypress -v [Check Cypress Version]
+8. npx cypress verify [Verify Cypress Installation]
+9. npx cypress open [Open Cypress to run test in GUI]
+10. npm install --save-dev cypress-file-upload
+11. npm install --save-dev cypress-mochawesome-reporter [It will download the dependency to generate Mochawesome report]
+12. npm install --save-dev cypress-terminal-report [It will download the dependency to print logs on terminal]
+13. cypress run e2e [Run All Tests with Browser Headless]
+14. cypress run --headed --browser chrome --spec cypress/e2e/01-form-submission-validation/form-submission-validation.cy.js  [To run specific suit in headed mode with chrome browser]
+15. cypress run --spec --headed --browser chrome cypress/e2e/01-form-submission-validation/form-submission-validation.cy.js, cypress/e2e/02-filter-validation/filter-validation.cy.js  [To run all the suits in this project with chrome browser in headed mode]
+16. cypress run --browser chrome [Run in Chrome Browser]
+17. cypress run e2e --headed [Run with Browser Head AND WILL GENERATE HTML REPORT]
+18. Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+19. npx cypress run --record
+
 
 # Working Files and Folders
 1. e2e [To write All Tests]
