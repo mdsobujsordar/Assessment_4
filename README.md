@@ -15,8 +15,8 @@
 13. npx cypress run e2e [Run All Tests with Browser Headless]
 14. npx cypress run --headed --browser chrome --spec cypress/e2e/01-form-submission-validation/form-submission-validation.cy.js  [To run specific suit in headed mode with chrome browser]
 15. npx cypress run --headed --browser chrome --spec cypress/e2e/01-form-submission-validation/form-submission-validation.cy.js, cypress/e2e/02-filter-validation/filter-validation.cy.js  [To run all the suits in this project with chrome browser in headed mode]
-16. cypress run --browser chrome [Run in Chrome Browser]
-17. cypress run e2e --headed [Run with Browser Head AND WILL GENERATE HTML REPORT]
+16. npx cypress run --browser chrome [Run in Chrome Browser]
+17. npx cypress run e2e --headed [Run with Browser Head AND WILL GENERATE HTML REPORT]
 18. Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 19. npx cypress run --record
 
