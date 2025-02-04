@@ -12,9 +12,9 @@
 10. npm install --save-dev cypress-file-upload
 11. npm install --save-dev cypress-mochawesome-reporter [It will download the dependency to generate Mochawesome report]
 12. npm install --save-dev cypress-terminal-report [It will download the dependency to print logs on terminal]
-13. cypress run e2e [Run All Tests with Browser Headless]
-14. cypress run --headed --browser chrome --spec cypress/e2e/01-form-submission-validation/form-submission-validation.cy.js  [To run specific suit in headed mode with chrome browser]
-15. cypress run --spec --headed --browser chrome cypress/e2e/01-form-submission-validation/form-submission-validation.cy.js, cypress/e2e/02-filter-validation/filter-validation.cy.js  [To run all the suits in this project with chrome browser in headed mode]
+13. npx cypress run e2e [Run All Tests with Browser Headless]
+14. npx cypress run --headed --browser chrome --spec cypress/e2e/01-form-submission-validation/form-submission-validation.cy.js  [To run specific suit in headed mode with chrome browser]
+15. npx cypress run --headed --browser chrome --spec cypress/e2e/01-form-submission-validation/form-submission-validation.cy.js, cypress/e2e/02-filter-validation/filter-validation.cy.js  [To run all the suits in this project with chrome browser in headed mode]
 16. cypress run --browser chrome [Run in Chrome Browser]
 17. cypress run e2e --headed [Run with Browser Head AND WILL GENERATE HTML REPORT]
 18. Set-ExecutionPolicy RemoteSigned -Scope CurrentUser

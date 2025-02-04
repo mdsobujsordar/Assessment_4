@@ -22,7 +22,6 @@ class formSubmission {
         //validate the success message
 
         cy.get('.alert').should('be.visible').should('have.text', ' Thanks for your message! We will contact you shortly. ')
-        " Thanks for your message! We will contact you shortly. "
     }
 }
 export default formSubmission;
